@@ -5,10 +5,10 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
- id        = "kz.smartpavlodar"
+ id        = "kz.smartaksu"
       version   = "0.0.75">
 
-    <name>Smart Pavlodar</name>
+    <name>Smart Аксу</name>
 
     <description>
 «SMART Павлодар» - это многофункциональная мобильная система
@@ -50,10 +50,10 @@ MaksimMorozov
 <plugin name="onesignal-cordova-plugin"  source="npm" />
       
 <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
-     <string>Загрузка изображений в "Smart Павлодар"</string>
+     <string>Загрузка изображений в "Smart Аксу"</string>
 </gap:config-file>
 <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
-    <string>Загрузка изображений в "Smart Павлодар"</string>
+    <string>Загрузка изображений в "Smart Аксу"</string>
 </gap:config-file>
   
 
