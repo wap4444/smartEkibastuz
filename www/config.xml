@@ -5,10 +5,10 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
- id        = "kz.smartaksu"
+ id        = "kz.smartekibastuz"
       version   = "0.0.75">
 
-    <name>Smart Аксу</name>
+    <name>Smart Екибастуз</name>
 
     <description>
 «SMART Павлодар» - это многофункциональная мобильная система
