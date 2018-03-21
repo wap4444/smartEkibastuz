@@ -43,7 +43,7 @@ $('.loader1').fadeIn();
 
 
 $("#BtnEnt" ).click(function() {
-var ref = cordova.InAppBrowser.open('http://smartaksu.kz/pavlodar/smart/?push='+localStorage.ipush, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+var ref = cordova.InAppBrowser.open('http://smartekibastuz.kz/pavlodar/smart/?push='+localStorage.ipush, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 });
         
 function didReceiveRemoteNotificationCallBack(jsonData) {}
@@ -55,7 +55,7 @@ function didOpenRemoteNotificationCallBack(jsonData) {}
 
         //ПОДКЛЮЧЕНИЕ ПУШЕЙ 
            window.plugins.OneSignal
-          .startInit("0d927078-f370-4968-95d4-0eebee583306")
+          .startInit("bd8e67e3-bf15-4a0a-935f-83a7d0145a72")
           .handleNotificationReceived(didReceiveRemoteNotificationCallBack)
           .handleNotificationOpened(didOpenRemoteNotificationCallBack)
 		  .inFocusDisplaying(window.plugins.OneSignal.OSInFocusDisplayOption.None)
@@ -66,7 +66,7 @@ window.plugins.OneSignal.getIds(function(ids) {
 ipush = ids.userId;
 $('.loader1').hide();
 localStorage.ipush=ipush;
-var ref = cordova.InAppBrowser.open('http://smartaksu.kz/pavlodar/smart/?push='+ipush, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+var ref = cordova.InAppBrowser.open('http://smartekibastuz.kz/pavlodar/smart/?push='+ipush, '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
 $('.loader2').show();
 });
         
