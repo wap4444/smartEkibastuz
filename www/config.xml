@@ -11,15 +11,8 @@
     <name>Smart Екибастуз</name>
 
     <description>
-«SMART Павлодар» - это многофункциональная мобильная система
-направленная на разрешении социальных вопросов и задач, значительно
-упрощающая и систематизирующая многие аспекты деловой и общественной
-жизни горожан. Система создана для прямого диалога с государственными
-структурами города и области и включает в себя тринадцать основных
-разделов: «ГАИ», «Налоговая», «Умный Дом», «Туризм и Спорт»,
-«Справочник», «Общественный транспорт», «Образование», «Миграционная
-полиция», «Глас Народа», «Курсы валют», «Новости», «Афиша», и
-«Уведомления».
+«SMART Экибастуз» - это многофункциональная мобильная система
+направленная на разрешении социальных вопросов и задач
       </description>
 
     <author href="http://phonegap.com" email="elegant4444@gmail.com">
@@ -50,10 +43,10 @@ MaksimMorozov
 <plugin name="onesignal-cordova-plugin"  source="npm" />
       
 <gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
-     <string>Загрузка изображений в "Smart Аксу"</string>
+     <string>Загрузка изображений в "Smart Экибастуз"</string>
 </gap:config-file>
 <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
-    <string>Загрузка изображений в "Smart Аксу"</string>
+    <string>Загрузка изображений в "Smart Экибастуз"</string>
 </gap:config-file>
   
 
