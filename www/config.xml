@@ -57,7 +57,7 @@ MaksimMorozov
 
 
     <!-- Define app icon and splashscreen for each platform. -->
-    <icon src="www/res/icon/ios/1024icon.png" />
+   <!-- <icon src="www/res/icon/ios/1024icon.png" /> -->
     <platform name="android">
           
      	<icon src="www/res/android/drawable-mdpi/ic_launcher.png" density="mdpi" />
