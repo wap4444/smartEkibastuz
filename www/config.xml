@@ -5,10 +5,10 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
- id        = "kz.smartekb"
+ id        = "kz.smartekibastuzfinal"
       version   = "0.75">
 
-    <name>Smart Ekb</name>
+    <name>Smart Ekibastuz</name>
 
     <description>
 «SMART Экибастуз» - это многофункциональная мобильная система
