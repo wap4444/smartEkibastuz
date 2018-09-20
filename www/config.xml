@@ -6,7 +6,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
  id        = "bf.smartekibastuz"
-      version   = "0.7">
+      version   = "0.8">
 
     <name>Smart Экибастуз</name>
 
